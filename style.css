@@ -60,9 +60,26 @@ ul{
 }
 
 @media only screen and  (max-width:320px) {
-    body{
-        background-color: red;
-    }
+ 
+    .container{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(75, 59, 90);
+    height: auto;
+    width: 60vw;
+    box-shadow: 4px  5px 6px;
+}
+
+
+.addTask{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media only screen and  (max-width:768px) {
+   
     .container{
     border: none;
     border-radius: 15px;
